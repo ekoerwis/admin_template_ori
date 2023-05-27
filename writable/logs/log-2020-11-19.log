@@ -1,0 +1,33 @@
+CRITICAL - 2020-11-19 20:42:39 --> Undefined variable: gender
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Views\themes\modern\builtin\user\form-edit.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 57, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(234): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(137): App\Controllers\BaseController->view('builtin/user/fo...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->edit()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-19 20:46:57 --> Undefined variable: tgl_lahir
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Views\themes\modern\builtin\user\form-edit.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 64, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(234): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(137): App\Controllers\BaseController->view('builtin/user/fo...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->edit()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-19 21:12:04 --> Undefined variable: disabled
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Views\themes\modern\builtin\user\form-edit.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 62, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(234): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(137): App\Controllers\BaseController->view('builtin/user/fo...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->edit()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}

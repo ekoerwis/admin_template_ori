@@ -1,0 +1,387 @@
+CRITICAL - 2020-10-30 06:43:37 --> Cannot redeclare App\Models\Builtin\ModuleModel::deleteData()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-30 06:43:48 --> Cannot redeclare App\Models\Builtin\ModuleModel::deleteData()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-30 06:48:55 --> Declaration of App\Models\Builtin\ModuleModel::getModuleRole() should be compatible with App\Models\BaseAdminModel::getModuleRole($id_module)
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(365): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'D:\\xampp-7.4.10...', 12, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(365): require_once()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Buil...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Buil...')
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(15): spl_autoload_call('App\\Models\\Buil...')
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Module->__construct()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-30 06:49:15 --> You must set the database table to be used with your query.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(31): CodeIgniter\Model->__call('getAllRoles', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-30 06:49:48 --> Too few arguments to function App\Models\BaseAdminModel::getModuleRole(), 0 passed in D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php on line 36 and exactly 1 expected
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(36): App\Models\BaseAdminModel->getModuleRole()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-30 06:50:20 --> scandir(app/Contollers/Builtin/,app/Contollers/Builtin/): The system cannot find the path specified. (code: 3)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(app/Con...', 'D:\\xampp-7.4.10...', 73, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(73): scandir('app/Contollers/...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-30 06:50:45 --> scandir(/app/Contollers/Builtin/,/app/Contollers/Builtin/): The system cannot find the path specified. (code: 3)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(/app/Co...', 'D:\\xampp-7.4.10...', 73, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(73): scandir('/app/Contollers...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-30 06:51:05 --> scandir(/app/,/app/): The system cannot find the file specified. (code: 2)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(/app/,/...', 'D:\\xampp-7.4.10...', 73, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(73): scandir('/app/')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-30 06:51:19 --> Undefined variable: file_general
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 75, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-30 06:51:38 --> Undefined variable: file_general
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 75, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-30 06:52:10 --> scandir(app\Contollers\,app\Contollers\): The system cannot find the file specified. (code: 2)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(app\\Con...', 'D:\\xampp-7.4.10...', 74, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(74): scandir('app\\Contollers\\')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-30 06:52:27 --> scandir(app\Contollers,app\Contollers): The system cannot find the file specified. (code: 2)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(app\\Con...', 'D:\\xampp-7.4.10...', 74, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(74): scandir('app\\Contollers')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-30 06:52:35 --> Undefined variable: file_general
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 75, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-30 06:52:55 --> Undefined variable: file_general
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 76, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-30 06:53:43 --> Undefined variable: file_general
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 77, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-30 06:54:01 --> Undefined variable: file_general
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 79, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-30 06:54:02 --> Undefined variable: file_general
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 79, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-30 06:54:12 --> Undefined variable: file_general
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 79, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-30 06:55:26 --> Undefined variable: current_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 11, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(228): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(84): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 06:55:53 --> Undefined variable: current_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 11, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(228): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(84): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 06:56:14 --> Undefined variable: current_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 11, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(228): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(84): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 06:56:47 --> Undefined variable: current_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 11, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(228): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(80): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 06:58:40 --> include(app/helpers/html.php): failed to open stream: No such file or directory
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-data.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/hel...', 'D:\\xampp-7.4.10...', 8, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-data.php(8): include()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(229): view('themes/modern/b...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(79): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-30 07:02:04 --> Undefined index: nama_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 152, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin_Module.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin_Module->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-30 07:02:43 --> include(app/helpers/html.php): failed to open stream: No such file or directory
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-data.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/hel...', 'D:\\xampp-7.4.10...', 8, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-data.php(8): include()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(229): view('themes/modern/b...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin_Module.php(79): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin_Module->index()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin_Module))
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-30 07:03:17 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 54, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-data.php(10): module_url()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(229): view('themes/modern/b...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin_Module.php(79): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin_Module->index()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin_Module))
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-30 07:05:38 --> Undefined variable: app_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-data.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 62, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(229): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin_Module.php(79): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin_Module->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin_Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 07:06:05 --> Undefined variable: currentModule
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-data.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 62, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(229): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin_Module.php(79): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin_Module->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin_Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-30 07:06:50 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 54, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-data.php(77): module_url()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(229): view('themes/modern/b...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin_Module.php(79): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin_Module->index()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin_Module))
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-30 07:17:25 --> Undefined variable: file_general
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin_Module.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 73, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin_Module->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin_Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-30 08:28:40 --> You must set the database table to be used with your query.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin_Module.php(126): CodeIgniter\Model->__call('listModuleRole', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin_Module.php(84): App\Controllers\Builtin_Module->setData()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin_Module->add()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin_Module))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-30 08:32:03 --> Undefined index: nama_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 152, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Module->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-30 09:44:20 --> Undefined variable: url_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 137, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Module->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-30 09:57:44 --> Call to undefined function App\Controllers\Builtin\listFiles()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-30 09:57:56 --> Call to undefined function listFiles()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-30 09:59:04 --> scandir() expects parameter 1 to be a valid path, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir() expec...', 'D:\\xampp-7.4.10...', 13, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(13): scandir(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(25): list_files(Array, Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(72): list_files('app/Controllers')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-30 09:59:31 --> A non-numeric value encountered
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\xampp-7.4.10...', 19, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(25): list_files('.', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(72): list_files('app/Controllers')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-30 10:16:17 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 528384 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-30 10:17:07 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 147013632 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-30 10:25:16 --> scandir(Builtin,Builtin): The system cannot find the file specified. (code: 2)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(Builtin...', 'D:\\xampp-7.4.10...', 13, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(13): scandir('Builtin')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(34): list_files('Builtin', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(72): list_files('app/Controllers')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-30 10:33:51 --> scandir(app/Controllersapp/Controllers/Builtin,app/Controllersapp/Controllers/Builtin): The system cannot find the path specified. (code: 3)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(app/Con...', 'D:\\xampp-7.4.10...', 13, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(13): scandir('app/Controllers...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(34): list_files('app/Controllers', 'app/Controllers...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(72): list_files('app/Controllers')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-30 10:36:16 --> Undefined variable: inc_dirname
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 17, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(72): list_files('app/Controllers')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-30 10:36:41 --> scandir(app/ControllersBuiltin,app/ControllersBuiltin): The system cannot find the file specified. (code: 2)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(app/Con...', 'D:\\xampp-7.4.10...', 13, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(13): scandir('app/Controllers...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(33): list_files('app/Controllers', 'Builtin', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(72): list_files('app/Controllers')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-30 10:43:20 --> syntax error, unexpected '&', expecting ')'
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(37): helper(Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Module->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-30 13:36:43 --> You must set the database table to be used with your query.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(56): CodeIgniter\Model->__call('updateStatus', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->index()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-30 22:45:13 --> syntax error, unexpected 'fields' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp-7.4.10...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Buil...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Buil...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(15): spl_autoload_call('App\\Models\\Buil...')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Module->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

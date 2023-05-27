@@ -1,0 +1,38 @@
+CRITICAL - 2020-11-04 05:45:32 --> Call to undefined function App\Controllers\Builtin\checkForm()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Menu->edit()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Menu))
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-04 05:50:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::update()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Menu.php(131): App\Models\Builtin\MenuModel->updateData('8')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Menu->edit()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Menu))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-04 05:56:47 --> Cannot redeclare App\Models\Builtin\MenuModel::saveData()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-04 05:57:23 --> Too few arguments to function App\Models\Builtin\MenuModel::saveData(), 0 passed in D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Menu.php on line 112 and exactly 1 expected
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Menu.php(112): App\Models\Builtin\MenuModel->saveData()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Menu->edit()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Menu))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-04 05:57:42 --> Too few arguments to function App\Models\Builtin\MenuModel::saveData(), 0 passed in D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Menu.php on line 112 and exactly 1 expected
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Menu.php(112): App\Models\Builtin\MenuModel->saveData()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Menu->edit()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Menu))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-04 06:00:02 --> Undefined index: id
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Menu.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 278, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Menu.php(44): App\Controllers\Builtin\Menu->buildChild(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Menu->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Menu))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}

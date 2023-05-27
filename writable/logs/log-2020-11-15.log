@@ -1,0 +1,421 @@
+CRITICAL - 2020-11-15 13:43:13 --> Cannot redeclare App\Models\ImageUploadModel::deleteData()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-15 13:43:16 --> Cannot redeclare App\Models\ImageUploadModel::deleteData()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-15 13:43:33 --> Undefined variable: app_module
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\image-upload-result.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 3, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/i...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(239): view('themes/modern/i...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(41): App\Controllers\BaseController->view('image-upload-re...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 14:05:17 --> syntax error, unexpected '" class="' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/i...', Array, true)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(239): view('themes/modern/i...', Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(41): App\Controllers\BaseController->view('image-upload-re...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->index()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 14:05:40 --> Undefined variable: app_module
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\image-upload-result.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 3, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/i...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(239): view('themes/modern/i...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(41): App\Controllers\BaseController->view('image-upload-re...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 14:06:25 --> CodeIgniter\View\View::main(): Failed opening required 'app/helpers/html.php' (include_path='D:\xampp-7.4.10\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-15 14:18:12 --> include(app/helpers/html.php): failed to open stream: No such file or directory
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\image-upload-form.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/hel...', 'D:\\xampp-7.4.10...', 8, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\image-upload-form.php(8): include()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/i...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(239): view('themes/modern/i...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(50): App\Controllers\BaseController->view('image-upload-fo...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->add()
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:18:45 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Helpers\util_helper.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 138, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\image-upload-form.php(10): module_url()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/i...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(239): view('themes/modern/i...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(50): App\Controllers\BaseController->view('image-upload-fo...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->add()
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-15 14:47:40 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp-7.4.10...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Imag...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Imag...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(12): spl_autoload_call('App\\Models\\Imag...')
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(890): App\Controllers\Image_Upload->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 14:47:53 --> Undefined variable: current_module
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 55, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->edit()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 14:48:09 --> Undefined variable: penghadap
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\multiple-fileupload-form.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 68, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/m...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(239): view('themes/modern/m...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(109): App\Controllers\BaseController->view('multiple-fileup...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->edit()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 14:48:35 --> Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP)
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\image-upload-form.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp-7.4.10...', 81, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/i...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(239): view('themes/modern/i...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(109): App\Controllers\BaseController->view('image-upload-fo...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->edit()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 15:31:06 --> syntax error, unexpected ')', expecting ']'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp-7.4.10...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Imag...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Imag...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(12): spl_autoload_call('App\\Models\\Imag...')
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(890): App\Controllers\Image_Upload->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 15:31:32 --> Cannot redeclare App\Models\ImageUploadModel::saveData()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-15 15:32:05 --> Call to undefined function create_image_mime()
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Helpers\util_helper.php(614): save_image('public/images/f...', 'image/png', 300, 300)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\ImageUploadModel.php(61): upload_image('public/images/f...', Array, 300, 300)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(75): App\Models\ImageUploadModel->saveData()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->edit()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 15:32:59 --> Call to undefined function create_image_mime()
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Helpers\util_helper.php(614): save_image('public/images/f...', 'image/png', 300, 300)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\ImageUploadModel.php(61): upload_image('public/images/f...', Array, 300, 300)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(75): App\Models\ImageUploadModel->saveData()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->edit()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 15:34:28 --> Call to undefined function create_image()
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Helpers\util_helper.php(614): save_image('public/images/f...', 'image/png', 300, 300)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\ImageUploadModel.php(61): upload_image('public/images/f...', Array, 300, 300)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(75): App\Models\ImageUploadModel->saveData()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->edit()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 15:39:11 --> array_merge(): Expected parameter 2 to be an array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', 'D:\\xampp-7.4.10...', 77, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(77): array_merge(Array, NULL)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->edit()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 15:48:29 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\ImageUploadModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 47, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(62): App\Models\ImageUploadModel->saveData()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->add()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 15:52:35 --> syntax error, unexpected ')', expecting ']'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp-7.4.10...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Imag...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Imag...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(12): spl_autoload_call('App\\Models\\Imag...')
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(890): App\Controllers\Image_Upload->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 15:52:45 --> Undefined variable: img_db
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\ImageUploadModel.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 54, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(62): App\Models\ImageUploadModel->saveData()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->add()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 16:03:59 --> array_merge(): Expected parameter 2 to be an array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', 'D:\\xampp-7.4.10...', 68, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(68): array_merge(Array, NULL)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->add()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 16:09:34 --> Call to a member function query() on null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(39): App\Models\ImageUploadModel->getMahasiswa()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 16:10:24 --> Call to a member function query() on null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(39): App\Models\ImageUploadModel->getMahasiswa()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 16:10:56 --> Call to a member function query() on null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Image_Upload.php(39): App\Models\ImageUploadModel->getMahasiswa()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Image_Upload->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Image_Upload))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 17:08:51 --> Invalid file: themes/modern/data-tables-result.php
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/d...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/d...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(239): view('themes/modern/d...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(44): App\Controllers\BaseController->view('data-tables-res...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 17:12:33 --> You must set the database table to be used with your query.
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(185): CodeIgniter\Model->__call('countAllData', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 17:12:51 --> You must set the database table to be used with your query.
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(185): CodeIgniter\Model->__call('countAllData', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 17:13:40 --> Class 'App\Controllers\ImageUploadModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(890): App\Controllers\Data_Tables->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-15 17:13:43 --> Class 'App\Controllers\ImageUploadModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(890): App\Controllers\Data_Tables->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-15 17:13:53 --> syntax error, unexpected 'if' (T_IF)
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp-7.4.10...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Data...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Data...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(12): spl_autoload_call('App\\Models\\Data...')
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(890): App\Controllers\Data_Tables->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 17:14:08 --> Class 'App\Models\DataTablesModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(890): App\Controllers\Data_Tables->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-15 17:14:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1 = 1 ORDER BY tgl_lahir DESC LIMIT 0, 10' at line 2
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM m...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\DataTablesModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(189): App\Models\DataTablesModel->getListData()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 17:15:16 --> join(): Passing glue string after array is deprecated. Swap the parameters
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'join(): Passing...', 'D:\\xampp-7.4.10...', 143, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\DataTablesModel.php(143): join(Array, ' OR ')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(189): App\Models\DataTablesModel->getListData()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 17:15:34 --> join(): Passing glue string after array is deprecated. Swap the parameters
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'join(): Passing...', 'D:\\xampp-7.4.10...', 143, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\DataTablesModel.php(143): join(Array, ' OR ')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(189): App\Models\DataTablesModel->getListData()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 04:30:50 --> syntax error, unexpected '*'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('data-tables')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('data-tables')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 17:31:08 --> Undefined variable: config
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 201, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 17:31:15 --> Undefined variable: config
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 201, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 04:35:24 --> syntax error, unexpected '}'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('data-tables')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('data-tables')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 17:36:25 --> Array to string conversion
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(208): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\xampp-7.4.10...', 208, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-15 17:39:58 --> Unknown column 'action' in 'where clause'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM m...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\DataTablesModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(189): App\Models\DataTablesModel->getListData()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 17:40:52 --> Unknown column 'action' in 'where clause'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM m...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM m...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM m...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\DataTablesModel.php(161): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...')
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(189): App\Models\DataTablesModel->getListData()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-15 17:46:31 --> Illegal string offset 'data'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\DataTablesModel.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\xampp-7.4.10...', 142, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(189): App\Models\DataTablesModel->getListData()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 17:46:49 --> Illegal string offset 'data'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\DataTablesModel.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\xampp-7.4.10...', 142, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(189): App\Models\DataTablesModel->getListData()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 18:08:32 --> Illegal string offset 'data'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\DataTablesModel.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\xampp-7.4.10...', 142, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(189): App\Models\DataTablesModel->getListData()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 18:09:28 --> Undefined index: data
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\DataTablesModel.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 142, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(189): App\Models\DataTablesModel->getListData()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->getDataDT()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-15 18:36:34 --> Class 'App\Models\DataTablesModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(890): App\Controllers\Data_Tables_Ajax->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-15 18:36:50 --> Class 'App\Models\DataTablesAjaxModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(890): App\Controllers\Data_Tables_Ajax->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-15 18:41:15 --> Undefined index: id
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\Builtin\MenuModel.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 155, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\Builtin\MenuModel.php(119): App\Models\Builtin\MenuModel->buildChild(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Builtin\Menu.php(43): App\Models\Builtin\MenuModel->updateData()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Builtin\Menu->index()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Menu))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-15 18:46:24 --> Invalid file: themes/modern/data-tables-result.php
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/d...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/d...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(239): view('themes/modern/d...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(44): App\Controllers\BaseController->view('data-tables-res...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-15 18:46:41 --> Invalid file: themes/modern/data-tables-result.php
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/d...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/d...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(239): view('themes/modern/d...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Data_Tables.php(43): App\Controllers\BaseController->view('data-tables-res...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Data_Tables->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data_Tables))
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

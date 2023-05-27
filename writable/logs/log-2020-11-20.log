@@ -1,0 +1,322 @@
+CRITICAL - 2020-11-20 04:48:06 --> Call to undefined function btn_label()
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(234): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(106): App\Controllers\BaseController->view('builtin/user/fo...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->add()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-20 04:56:45 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Helpers\util_helper.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 138, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(87): module_url()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-20 04:56:55 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Helpers\util_helper.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 138, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(87): module_url()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-20 04:57:07 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Helpers\util_helper.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 138, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(87): module_url()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-20 04:57:15 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Helpers\util_helper.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 138, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(87): module_url()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-20 05:07:56 --> Undefined index: user_edit
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Libraries\Auth.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 99, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(166): App\Libraries\Auth->validateFormToken('user_edit')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(135): App\Controllers\Builtin\User->saveData()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->edit()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-20 05:09:55 --> You must set the database table to be used with your query.
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(168): CodeIgniter\Model->__call('saveProfile', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(135): App\Controllers\Builtin\User->saveData()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->edit()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-20 05:11:38 --> join(): Passing glue string after array is deprecated. Swap the parameters
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'join(): Passing...', 'D:\\xampp-7.4.10...', 26, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Models\Builtin\UserModel.php(26): join(Array, ' OR ')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(68): App\Models\Builtin\UserModel->getListUsers(Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-20 05:11:46 --> join(): Passing glue string after array is deprecated. Swap the parameters
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'join(): Passing...', 'D:\\xampp-7.4.10...', 26, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Models\Builtin\UserModel.php(26): join(Array, ' OR ')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(68): App\Models\Builtin\UserModel->getListUsers(Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-20 05:12:26 --> join(): Passing glue string after array is deprecated. Swap the parameters
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'join(): Passing...', 'D:\\xampp-7.4.10...', 26, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Models\Builtin\UserModel.php(26): join(Array, ' OR ')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(68): App\Models\Builtin\UserModel->getListUsers(Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-20 05:13:22 --> Call to undefined function btn_label()
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(234): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(121): App\Controllers\BaseController->view('builtin/user/fo...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->add()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-20 05:15:41 --> include(app/helpers/html.php): failed to open stream: No such file or directory
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Views\themes\modern\builtin\user\form-add.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/hel...', 'D:\\xampp-7.4.10...', 8, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Views\themes\modern\builtin\user\form-add.php(8): include()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(234): view('themes/modern/b...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(121): App\Controllers\BaseController->view('builtin/user/fo...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->add()
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-20 05:16:02 --> Undefined variable: app_module
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Views\themes\modern\builtin\user\form-add.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 12, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(234): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(121): App\Controllers\BaseController->view('builtin/user/fo...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->add()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-20 05:18:11 --> Call to a member function getName() on null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(156): App\Controllers\Builtin\User->validateForm()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(117): App\Controllers\Builtin\User->saveData()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->add()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-20 05:18:33 --> Call to a member function getName() on null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(156): App\Controllers\Builtin\User->validateForm()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(117): App\Controllers\Builtin\User->saveData()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->add()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-20 05:19:02 --> Column 'aktif' cannot be null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `us...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Models\Builtin\UserModel.php(82): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(168): App\Models\Builtin\UserModel->saveData(Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(117): App\Controllers\Builtin\User->saveData()
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->add()
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#9 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-20 05:45:45 --> Undefined variable: message_source
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Helpers\util_helper.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 193, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Views\themes\modern\builtin\user\form-edit-password.php(8): show_message(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(234): view('themes/modern/b...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(316): App\Controllers\BaseController->view('builtin/user/fo...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->edit_password()
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-20 05:49:10 --> Call to undefined method App\Controllers\Builtin\User::updatePassword()
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->edit_password()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-20 05:57:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_user = 2 LIMIT 0, 10' at line 1
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM u...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Models\Builtin\UserModel.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(50): App\Models\Builtin\UserModel->getListUsers(Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-20 05:58:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_user = 2 LIMIT 0, 10' at line 1
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM u...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Models\Builtin\UserModel.php(43): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\User.php(50): App\Models\Builtin\UserModel->getListUsers(Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\User->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-20 06:03:39 --> Undefined index: param
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Setting.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 61, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-20 06:04:28 --> Undefined index: param
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Setting.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 62, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-20 06:05:08 --> Undefined variable: current_module
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Views\themes\modern\header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 12, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(233): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Setting.php(71): App\Controllers\BaseController->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-20 06:06:20 --> Undefined variable: db
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Models\Builtin\SettingModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 55, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Setting.php(39): App\Models\Builtin\SettingModel->saveData(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-20 19:56:09 --> Call to undefined function App\Controllers\load_view()
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(153): App\Controllers\BaseController->getListAction()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Menu_role.php(19): App\Controllers\BaseController->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(890): App\Controllers\Builtin\Menu_role->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-20 20:00:36 --> Invalid file: views/error.php
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('views/error.php')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('views/error.php', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(191): view('views/error.php', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(153): App\Controllers\BaseController->getListAction()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Menu_role.php(19): App\Controllers\BaseController->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(890): App\Controllers\Builtin\Menu_role->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-20 20:00:57 --> Invalid file: error.php
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error.php')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('error.php', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(191): view('error.php', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(153): App\Controllers\BaseController->getListAction()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Menu_role.php(19): App\Controllers\BaseController->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(890): App\Controllers\Builtin\Menu_role->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-20 20:01:11 --> Undefined variable: current_module
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Views\themes\modern\header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 12, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(233): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(191): App\Controllers\BaseController->view('error.php', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(153): App\Controllers\BaseController->getListAction()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Menu_role.php(19): App\Controllers\BaseController->__construct()
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(890): App\Controllers\Builtin\Menu_role->__construct()
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#9 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-20 07:02:20 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp-7.4.10...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Menu_role.php(12): spl_autoload_call('App\\Controllers...')
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Router\Router.php(583): include_once('D:\\xampp-7.4.10...')
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('builtin/menu-ro...')
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('builtin/menu-ro...')
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-20 20:02:30 --> Undefined variable: data
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 193, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(153): App\Controllers\BaseController->getListAction()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Menu_role.php(19): App\Controllers\BaseController->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(890): App\Controllers\Builtin\Menu_role->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-20 20:17:54 --> Undefined variable: data
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 193, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(153): App\Controllers\BaseController->getListAction()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Menu_role.php(19): App\Controllers\BaseController->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(890): App\Controllers\Builtin\Menu_role->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-20 20:29:41 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(278): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 278, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Menu_role.php(40): App\Controllers\BaseController->cekHakAkses('read_data', 'all')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(918): App\Controllers\Builtin\Menu_role->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Menu_role))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-20 20:30:49 --> Undefined variable: id_role
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 159, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Menu_role.php(19): App\Controllers\BaseController->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(890): App\Controllers\Builtin\Menu_role->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-20 20:31:11 --> Invalid file: themes/modern/h.php
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/h...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\BaseController.php(164): view('themes/modern/h...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\app\Controllers\Builtin\Menu_role.php(19): App\Controllers\BaseController->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(890): App\Controllers\Builtin\Menu_role->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template_demo\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}

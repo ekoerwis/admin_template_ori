@@ -1,0 +1,792 @@
+CRITICAL - 2020-10-28 01:20:54 --> Class 'App\Controllers\BaseAdmin' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('comment')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('comment')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 01:21:20 --> Class 'App\Controllers\Base' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(365): require_once()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(6): spl_autoload_call('App\\Controllers...')
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once('D:\\xampp-7.4.10...')
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('comment')
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('comment')
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-10-28 01:21:47 --> Class 'App\Controllers\Base' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(365): require_once()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(6): spl_autoload_call('App\\Controllers...')
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once('D:\\xampp-7.4.10...')
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('comment')
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('comment')
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-10-28 01:21:48 --> Class 'App\Controllers\Base' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(365): require_once()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(6): spl_autoload_call('App\\Controllers...')
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once('D:\\xampp-7.4.10...')
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('comment')
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('comment')
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-10-28 13:24:42 --> Class 'App\Libraries\Auth' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(28): App\Controllers\Base->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(13): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 13:30:07 --> Class 'App\Libraries\Auth' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(28): App\Controllers\Base->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(13): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 13:30:38 --> Class 'App\Models\BaseModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(28): App\Controllers\Base->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(13): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 01:33:19 --> Cannot call constructor
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 01:40:15 --> Cannot call constructor
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 01:41:03 --> Cannot call constructor
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 01:41:05 --> Cannot call constructor
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 01:41:51 --> Cannot call constructor
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 01:42:08 --> Cannot call constructor
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 01:42:10 --> Cannot call constructor
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 01:42:10 --> Cannot call constructor
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 01:42:11 --> Cannot call constructor
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 01:42:11 --> Cannot call constructor
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 01:42:11 --> Cannot call constructor
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 01:42:11 --> Cannot call constructor
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 01:42:54 --> Class 'App\Controllers\Base' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 13:43:04 --> Class 'App\Models\Admin\Group\LoginModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 13:44:17 --> Invalid file: themes/modern/admin/login-page.php
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/a...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/a...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(32): view('themes/modern/a...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-28 13:45:08 --> Undefined variable: settingWeb
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\admin\login-page.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 29, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/a...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(32): view('themes/modern/a...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-28 13:56:08 --> Undefined variable: router
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 236, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(56): App\Controllers\BaseAdmin->mustLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(11): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-28 13:57:28 --> Unable to connect to the database.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\BaseAdminModel.php(263): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(78): App\Models\BaseAdminModel->getSettingWeb()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(11): App\Controllers\BaseAdmin->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-28 13:57:46 --> No database selected
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM s...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM s...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM s...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\BaseAdminModel.php(263): CodeIgniter\Database\BaseConnection->query('SELECT * FROM s...')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(78): App\Models\BaseAdminModel->getSettingWeb()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(11): App\Controllers\BaseAdmin->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-28 13:59:36 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\BaseAdminModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 91, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(81): App\Models\BaseAdminModel->getUserSetting()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(11): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-28 14:00:50 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\BaseAdminModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 91, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(81): App\Models\BaseAdminModel->getUserSetting()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(11): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-28 14:02:11 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\BaseAdminModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 91, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(81): App\Models\BaseAdminModel->getUserSetting()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(11): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-28 14:06:52 --> Undefined variable: settingWeb
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\admin\login-page.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 29, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/a...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(32): view('themes/modern/a...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-28 02:07:08 --> Class 'App\Controllers\BaseController' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 14:07:38 --> Undefined variable: settingWeb
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\admin\login-page.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 29, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/a...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(32): view('themes/modern/a...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-28 14:52:49 --> Undefined variable: module_name
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 30, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 14:59:40 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\BaseAdminModel.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 91, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(84): App\Models\BaseAdminModel->getUserSetting()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-28 15:02:14 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\BaseAdminModel.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 92, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(84): App\Models\BaseAdminModel->getUserSetting()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-28 15:03:22 --> Class 'App\Models\LoginModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 03:56:25 --> Class 'App\Controllers\BaseController' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(365): require_once()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 16:06:31 -->  route cannot be found while reverse-routing.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(219): redirect('http://localhos...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(139): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 16:06:39 -->  route cannot be found while reverse-routing.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(219): redirect('http://localhos...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(139): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 16:06:53 -->  route cannot be found while reverse-routing.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(219): redirect('http://localhos...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(139): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 16:07:59 --> Class 'App\Models\Admin\CommentModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 16:08:10 --> Class 'App\Models\Admin\CommentModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 16:08:13 --> Class 'App\Models\Admin\CommentModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 16:09:08 --> Undefined variable: app_layout
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 95, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(13): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 16:26:00 --> Trying to get property 'param' of non-object
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp-7.4.10...', 86, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(13): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 16:29:05 --> Undefined variable: query
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\BaseAdminModel.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 99, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(84): App\Models\BaseAdminModel->getUserSetting()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(13): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-28 16:30:02 --> Trying to get property 'param' of non-object
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp-7.4.10...', 86, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(13): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 16:31:58 --> Trying to get property 'param' of non-object
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp-7.4.10...', 86, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(13): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 16:32:22 --> Trying to get property 'param' of non-object
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp-7.4.10...', 86, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(13): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 16:32:59 --> Class 'App\Models\StdClass' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(84): App\Models\BaseAdminModel->getUserSetting()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(13): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 16:33:11 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 119, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(13): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 16:45:51 -->  route cannot be found while reverse-routing.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(224): redirect('http://localhos...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(142): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 16:46:20 -->  route cannot be found while reverse-routing.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(224): redirect('http://localhos...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(142): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 16:47:34 -->  route cannot be found while reverse-routing.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(224): redirect('http://localhos...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(64): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 16:47:59 --> Class 'App\Models\Admin\CommentModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 16:48:42 --> Class 'App\Models\CommentModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-28 16:49:05 --> Encrypter needs a starter key.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Libraries\Nonce.php(10): CodeIgniter\Config\Services::encrypter()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(17): App\Libraries\Nonce->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-28 16:51:26 --> Encrypter needs a starter key.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Libraries\Nonce.php(10): CodeIgniter\Config\Services::encrypter()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(17): App\Libraries\Nonce->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-28 16:51:29 --> Encrypter needs a starter key.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Libraries\Nonce.php(10): CodeIgniter\Config\Services::encrypter()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(17): App\Libraries\Nonce->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Comment->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-28 16:54:24 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\CommentModel.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 97, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(45): App\Models\CommentModel->getListData(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 16:55:04 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\CommentModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 112, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(45): App\Models\CommentModel->getListData(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 16:55:22 --> Undefined property: stdClass::$tipe_membership
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 77, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 16:56:47 --> Undefined property: stdClass::$tipe_membership
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 77, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 16:57:13 --> Undefined property: stdClass::$tipe_membership
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 77, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 16:58:45 --> Undefined index: color_scheme
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 25, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 16:59:19 --> Undefined variable: color_scheme
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 8, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 16:59:58 --> Undefined index: color_scheme
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 27, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 17:00:34 --> Undefined index: color_scheme
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 27, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 17:00:49 --> Undefined index: color_scheme
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 27, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 17:00:56 --> Undefined index: color_scheme
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 27, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 17:00:57 --> Undefined index: color_scheme
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 27, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 17:00:57 --> Undefined index: color_scheme
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 27, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 17:00:57 --> Undefined index: color_scheme
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 27, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 17:00:57 --> Undefined index: color_scheme
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 27, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 17:02:31 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\builtin\util_helper.php(465): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 465, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(150): build_menu(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(211): view('themes/modern/h...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-28 17:04:54 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\builtin\util_helper.php(465): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 465, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(150): build_menu(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(211): view('themes/modern/h...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-28 20:58:43 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 55, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(26): App\Controllers\Login->login()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 20:59:14 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\builtin\util_helper.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 470, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(150): build_menu(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-28 20:59:43 --> Undefined variable: currentModule
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\builtin\util_helper.php(439): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 439, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(150): build_menu(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-28 21:00:05 --> Cannot access protected property App\Controllers\BaseAdmin::$currentModule
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(150): build_menu(Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 21:00:49 --> Cannot use object of type App\Controllers\BaseAdmin as array
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(150): build_menu(Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-28 21:01:34 --> join(): Passing glue string after array is deprecated. Swap the parameters
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'join(): Passing...', 'D:\\xampp-7.4.10...', 491, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\builtin\util_helper.php(491): join(Array, ' ')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(150): build_menu(Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-10-28 21:01:59 --> join(): Passing glue string after array is deprecated. Swap the parameters
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'join(): Passing...', 'D:\\xampp-7.4.10...', 480, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\builtin\util_helper.php(480): join(Array, ' ')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(150): build_menu(Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(210): view('themes/modern/h...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(52): App\Controllers\BaseAdmin->view('comment-result....', Array)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->index()
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-10-28 17:54:44 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 12, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-28 18:34:12 --> Call to undefined function App\Controllers\Builtin\login_required()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('builtin/setting')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('builtin/setting')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-28 19:01:31 --> Undefined index: action
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 108, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('builtin/setting')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('builtin/setting')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-28 23:13:04 --> Undefined index: action
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\SettingWeb.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 161, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('builtin/setting...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('builtin/setting...')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}

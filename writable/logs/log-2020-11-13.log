@@ -1,0 +1,35 @@
+CRITICAL - 2020-11-13 19:55:14 --> syntax error, unexpected 'if' (T_IF)
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('input-dinamis/a...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('input-dinamis/a...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-13 21:21:29 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('options-dinamis')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('options-dinamis')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-13 21:21:31 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('options-dinamis')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('options-dinamis')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-13 21:29:37 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('options-dinamis')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('options-dinamis')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-13 21:29:57 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('options-dinamis')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('options-dinamis')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,16 @@
+CRITICAL - 2020-10-13 09:31:50 --> Class 'App\Controllers\BaseAdmin' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-13 09:32:20 --> Class 'App\Controllers\BaseAdmin' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('login')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('login')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

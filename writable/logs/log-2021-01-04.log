@@ -1,0 +1,151 @@
+CRITICAL - 2021-01-04 17:23:29 --> Undefined variable: key
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\multiple-fileupload-form.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 108, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/m...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(238): view('themes/modern/m...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Multiple_fileupload.php(176): App\Controllers\BaseController->view('multiple-fileup...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Multiple_fileupload->edit()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multiple_fileupload))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-04 17:24:46 --> Cannot use object of type Config\App as array
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/m...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(238): view('themes/modern/m...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Multiple_fileupload.php(176): App\Controllers\BaseController->view('multiple-fileup...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Multiple_fileupload->edit()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multiple_fileupload))
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-04 17:26:12 --> Invalid argument supplied for foreach()
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\multiple-fileupload-form.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp-7.4.10...', 175, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/m...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(238): view('themes/modern/m...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Multiple_fileupload.php(176): App\Controllers\BaseController->view('multiple-fileup...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Multiple_fileupload->edit()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multiple_fileupload))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-04 17:53:41 --> Undefined variable: db
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\MultipleFileuploadModel.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 111, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Multiple_fileupload.php(142): App\Models\MultipleFileuploadModel->saveData()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Multiple_fileupload->edit()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multiple_fileupload))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-04 17:54:23 --> array_keys() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_keys() ex...', 'D:\\xampp-7.4.10...', 2144, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\BaseBuilder.php(2144): array_keys('Dokumen Penduku...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\BaseBuilder.php(2074): CodeIgniter\Database\BaseBuilder->setInsertBatch(Array, '', true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\MultipleFileuploadModel.php(156): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Multiple_fileupload.php(142): App\Models\MultipleFileuploadModel->saveData()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Multiple_fileupload->edit()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multiple_fileupload))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-04 18:41:39 --> Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP)
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\options-dinamis-result.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp-7.4.10...', 45, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/o...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(238): view('themes/modern/o...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Multiple_fileupload.php(60): App\Controllers\BaseController->view('options-dinamis...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Multiple_fileupload->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multiple_fileupload))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-04 18:42:10 --> Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP)
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\multiple-fileupload-result.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp-7.4.10...', 45, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/m...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(238): view('themes/modern/m...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Multiple_fileupload.php(60): App\Controllers\BaseController->view('multiple-fileup...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Multiple_fileupload->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Multiple_fileupload))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-04 06:49:07 --> Access level to App\Controllers\Produk::$model must be protected (as in class App\Controllers\BaseController) or weaker
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-04 19:49:32 --> Class 'App\Models\ProdukModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(890): App\Controllers\Produk->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-04 19:50:00 --> Class 'App\Models\ProdukModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(890): App\Controllers\Produk->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-04 19:50:28 --> Table 'admin_template_ci.produk' doesn't exist
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * FROM p...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\ProdukModel.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Produk.php(16): App\Models\ProdukModel->getDataProduk()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Produk->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-04 19:51:09 --> Undefined variable: result
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\ProdukModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 13, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Produk.php(16): App\Models\ProdukModel->getDataProduk()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Produk->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-04 19:51:22 --> Undefined variable: result
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\ProdukModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 13, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Produk.php(16): App\Models\ProdukModel->getDataProduk()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Produk->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-04 19:51:24 --> Undefined variable: result
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Models\ProdukModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 13, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Produk.php(16): App\Models\ProdukModel->getDataProduk()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Produk->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-04 20:02:56 --> Invalid file: themes/modern/produk-result.php
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/p...')
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/p...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(238): view('themes/modern/p...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Produk.php(18): App\Controllers\BaseController->view('produk-result.p...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Produk->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-04 22:45:55 --> Undefined variable: akta_file
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\options-dinamis-result.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 42, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/o...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(238): view('themes/modern/o...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Options_dinamis.php(58): App\Controllers\BaseController->view('options-dinamis...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Options_dinamis->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Options_dinamis))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-01-04 22:46:50 --> Undefined index: data_akta
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Options_dinamis.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 52, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Options_dinamis->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Options_dinamis))
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}

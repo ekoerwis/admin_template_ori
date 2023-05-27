@@ -1,0 +1,233 @@
+CRITICAL - 2020-10-31 05:21:00 --> Undefined offset: 0
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Database\Query.php(479): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp-7.4.10...', 479, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Database\Query.php(408): CodeIgniter\Database\Query->matchSimpleBinds('SELECT * FROM m...', Array, 1, 1)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Database\Query.php(197): CodeIgniter\Database\Query->compileBinds()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Database\BaseConnection.php(669): CodeIgniter\Database\Query->getQuery()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\Builtin\ModuleModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT * FROM m...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(107): App\Models\Builtin\ModuleModel->getModule('1')
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->edit()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-31 05:22:37 --> Call to undefined function App\Controllers\Builtin\load_view()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->edit()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-31 05:29:08 --> CodeIgniter\View\View::main(): Failed opening required 'app/includes/functions.php' (include_path='D:\xampp-7.4.10\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-31 05:29:43 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 85, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-form.php(10): module_url()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(232): view('themes/modern/b...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(142): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->edit()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-31 06:44:18 --> Undefined index: id
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 107, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->edit()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-31 06:52:17 --> Undefined index: form_role
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Libraries\Auth.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 99, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(187): App\Libraries\Auth->validateFormToken('form_role')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(116): App\Controllers\Builtin\Module->validateForm()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->edit()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-31 06:53:43 --> Call to undefined function App\Controllers\Builtin\validate_form()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->edit()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-31 06:55:23 --> Undefined index: id
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 107, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->edit()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-31 06:55:41 --> Undefined index: id
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 107, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->edit('edit')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-31 06:59:54 --> Call to undefined method Config\App::baseURL()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(232): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(142): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->edit()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-31 07:00:58 --> You must set the database table to be used with your query.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(146): CodeIgniter\Model->__call('listModuleRole', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(84): App\Controllers\Builtin\Module->setData()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->add()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-31 07:21:52 --> Argument 2 passed to set_value() must be of the type string, null given, called in D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-form.php on line 33
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-form.php(33): set_value('nama_module', NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(232): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(98): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->add()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-31 07:23:33 --> Undefined variable: module_status
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-form.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 58, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(232): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(98): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->add()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-31 10:49:42 --> Undefined variable: module_status
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-form.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 58, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(232): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(98): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->add()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-31 10:50:00 --> Undefined variable: module_status
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-form.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 58, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(232): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(98): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->add()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-31 10:50:01 --> Undefined variable: module_status
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-form.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 58, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(232): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(98): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->add()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-31 10:50:19 --> You must set the database table to be used with your query.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(148): CodeIgniter\Model->__call('listModuleRole', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(84): App\Controllers\Builtin\Module->setData()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->add()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-31 10:50:55 --> You must set the database table to be used with your query.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(149): CodeIgniter\Model->__call('getModuleStatus', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(84): App\Controllers\Builtin\Module->setData()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->add()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-31 10:51:42 --> Undefined variable: module_status
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-form.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 58, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(232): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(98): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->add()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-31 10:52:18 --> Column 'judul_role' cannot be null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `ro...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ro...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ro...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ro...', Array, false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\Builtin\ModuleModel.php(93): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(156): App\Models\Builtin\ModuleModel->saveData()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(94): App\Controllers\Builtin\Module->saveData()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->add()
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-10-31 21:44:45 --> syntax error, unexpected ')', expecting ']'
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp-7.4.10...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Buil...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Buil...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(15): spl_autoload_call('App\\Models\\Buil...')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Module->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-31 21:47:04 --> You must set the database table to be used with your query.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(131): CodeIgniter\Model->__call('updateData', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->edit()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-31 21:53:48 --> Argument 2 passed to set_value() must be of the type string, null given, called in D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-form.php on line 38
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\module-form.php(38): set_value('nama_module', NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(232): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(97): App\Controllers\BaseAdmin->view('builtin/module-...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Module->add()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Module))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-31 21:59:13 --> Undefined variable: current_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 11, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(231): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(148): App\Controllers\BaseAdmin->view('error.php', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_Web.php(15): App\Controllers\BaseAdmin->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Setting_web->__construct()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-31 21:59:24 --> Cannot redeclare format_tanggal() (previously declared in D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php:60)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

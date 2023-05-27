@@ -1,0 +1,22 @@
+CRITICAL - 2020-11-18 05:29:24 --> Undefined variable: gender
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\builtin\user\form-edit.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 57, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(239): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Builtin\User.php(152): App\Controllers\BaseController->view('builtin/user/fo...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Builtin\User->edit()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-18 05:31:39 --> Undefined variable: gender
+#0 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Views\themes\modern\builtin\user\form-edit.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 57, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\BaseController.php(239): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\admin_template\app\Controllers\Builtin\User.php(152): App\Controllers\BaseController->view('builtin/user/fo...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(918): App\Controllers\Builtin\User->edit()
+#6 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#7 D:\xampp-7.4.10\htdocs\ci4\admin_template\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\admin_template\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}

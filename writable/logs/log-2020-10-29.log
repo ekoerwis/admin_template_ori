@@ -1,0 +1,1305 @@
+CRITICAL - 2020-10-29 05:11:29 --> Call to undefined function options()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/c...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(211): view('themes/modern/c...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(177): App\Controllers\BaseAdmin->view('comment-edit.ph...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->edit()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 05:11:36 --> Call to undefined function options()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/c...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(211): view('themes/modern/c...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(177): App\Controllers\BaseAdmin->view('comment-edit.ph...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->edit()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 05:12:22 --> Call to undefined function options()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/c...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(211): view('themes/modern/c...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(178): App\Controllers\BaseAdmin->view('comment-edit.ph...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->edit()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 05:13:01 --> Call to undefined function options()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/c...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(211): view('themes/modern/c...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(177): App\Controllers\BaseAdmin->view('comment-edit.ph...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->edit()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 05:13:25 --> join(): Passing glue string after array is deprecated. Swap the parameters
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'join(): Passing...', 'D:\\xampp-7.4.10...', 34, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\html_helper.php(34): join(Array, ' ')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\comment-edit.php(54): options(Array, Array, '1')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/c...', Array, true)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(211): view('themes/modern/c...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Comment.php(177): App\Controllers\BaseAdmin->view('comment-edit.ph...', Array)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Comment->edit()
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comment))
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-10-29 05:15:33 --> Class 'App\Models\RatingModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Rating->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-29 05:20:37 --> Call to undefined function App\Controllers\btn_action()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Rating->getDataDT()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-29 05:20:56 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\RatingModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 58, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Rating.php(86): App\Models\RatingModel->getListDataDT(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Rating->getDataDT()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:21:24 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\RatingModel.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 73, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Rating.php(86): App\Models\RatingModel->getListDataDT(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Rating->getDataDT()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:21:53 --> Call to undefined function App\Controllers\btn_action()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Rating->getDataDT()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-29 05:25:12 --> Class 'App\Models\Builtin\UserModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-29 05:25:27 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\Builtin\UserModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 17, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(45): App\Models\Builtin\UserModel->getListUsers(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:25:44 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\Builtin\UserModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 32, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(45): App\Models\Builtin\UserModel->getListUsers(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:26:00 --> Undefined index: title
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\Builtin\UserModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 56, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(153): App\Models\Builtin\UserModel->getMembership()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(51): App\Controllers\Builtin\User->setData()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->index()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 05:35:25 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:35:31 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:36:12 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:38:54 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:39:51 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 49, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:41:12 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 50, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:43:06 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 43, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:43:31 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 42, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:43:43 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 41, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:44:00 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 41, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:44:12 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 47, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:44:23 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 39, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:44:46 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 47, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:45:02 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 41, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:45:25 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 45, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:45:49 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 45, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:49:06 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 46, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:50:37 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 46, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(12): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:50:48 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 86, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:43 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:44 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:44 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:44 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:44 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:45 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:45 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:45 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:45 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:46 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:46 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:46 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:51:46 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:53:15 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:53:42 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 31, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:53:49 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 31, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:54:16 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 15, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:55:58 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 15, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:56:45 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 52, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(14): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:57:43 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 52, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(14): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 05:59:04 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 91, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 05:59:59 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 91, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->getUserDT()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 06:00:27 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 53, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(14): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 06:01:07 --> Undefined property: App\Controllers\Builtin\User::$moduleUrl
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 52, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(14): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\User->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 06:05:35 --> Invalid file: themes/modern/group/user/result.php
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/g...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/g...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/g...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(56): App\Controllers\BaseAdmin->view('group/user/resu...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 06:10:14 --> Invalid file: themes/modern/group/user/form-edit.php
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/g...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/g...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/g...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(152): App\Controllers\BaseAdmin->view('group/user/form...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->edit()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 06:10:47 --> Call to undefined function btn_label()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(152): App\Controllers\BaseAdmin->view('builtin/user/fo...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->edit()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 06:11:10 --> Trying to access array offset on value of type null
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\user\form-edit.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\xampp-7.4.10...', 49, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\User.php(152): App\Controllers\BaseAdmin->view('builtin/user/fo...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\User->edit()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\User))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 06:13:08 --> Class 'App\Models\Admin\Group\RoleModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Role->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-29 06:13:24 --> Class 'App\Models\Builtin\RoleModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Role->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-29 06:13:40 --> Invalid file: themes/modern/group/role-result.php
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/g...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/g...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/g...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Role.php(58): App\Controllers\BaseAdmin->view('group/role-resu...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Role->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Role))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 06:31:12 --> Call to undefined function options()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Role.php(103): App\Controllers\BaseAdmin->view('builtin/role-fo...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Role->edit()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Role))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 07:01:44 --> Class 'App\Controllers\Builtin\RoleModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Setting->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-29 07:02:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(93): App\Models\Builtin\SettingModel->getUserSetting()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 07:03:11 --> Undefined variable: app_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 104, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 07:04:16 --> Call to undefined function App\Controllers\Builtin\load_view()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-29 07:05:46 --> Undefined variable: current_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 13, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(204): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(105): App\Controllers\BaseAdmin->view('builtin/form.ph...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 07:06:25 --> Undefined variable: settingWeb
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 13, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(204): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(106): App\Controllers\BaseAdmin->view('builtin/form.ph...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 07:26:11 --> Undefined variable: settingWeb
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 8, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(204): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(106): App\Controllers\BaseAdmin->view('builtin/form.ph...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 07:28:20 --> Undefined variable: settingWeb
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 8, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(204): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(106): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 07:30:22 --> include(app/helpers/html.php): failed to open stream: No such file or directory
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/hel...', 'D:\\xampp-7.4.10...', 8, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php(8): include()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(107): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-29 07:31:00 --> Call to undefined function helpers()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(107): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 07:31:24 --> Argument 2 passed to set_value() must be of the type string, null given, called in D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php on line 27
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php(27): set_value('logo_background...', NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(107): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 07:32:17 --> Argument 2 passed to set_value() must be of the type string, null given, called in D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php on line 27
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php(27): set_value('logo_background...', NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(107): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 07:32:37 --> Call to undefined function options()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(107): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 07:33:18 --> Undefined variable: color_scheme
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 21, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(107): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 07:33:34 --> Undefined variable: color_scheme
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 22, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(107): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 07:33:44 --> Call to undefined function options()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(107): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 07:34:08 --> Argument 2 passed to set_value() must be of the type string, null given, called in D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php on line 36
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php(36): set_value('logo_background...', NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(107): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 07:35:35 --> Argument 2 passed to set_value() must be of the type string, null given, called in D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php on line 49
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php(49): set_value('sidebar_color', NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(107): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 07:36:04 --> Argument 2 passed to set_value() must be of the type string, null given, called in D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php on line 53
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\setting-form.php(53): set_value('font_family', NULL)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(205): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(107): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 07:45:36 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(204): view('themes/modern/h...', Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(109): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 07:45:52 --> syntax error, unexpected '/'
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(204): view('themes/modern/h...', Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(109): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 08:06:57 --> Undefined variable: current_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 12, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(214): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(136): App\Controllers\BaseAdmin->view('error.php', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(15): App\Controllers\BaseAdmin->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Setting->__construct()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-29 08:11:11 --> Undefined variable: current_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 12, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(214): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(136): App\Controllers\BaseAdmin->view('error.php', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(15): App\Controllers\BaseAdmin->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Setting->__construct()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-29 08:12:33 --> Undefined variable: current_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 12, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/h...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(216): view('themes/modern/h...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(138): App\Controllers\BaseAdmin->view('error.php', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(15): App\Controllers\BaseAdmin->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Setting->__construct()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-29 08:21:59 --> Undefined variable: module_role
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 48, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 08:39:42 --> Undefined variable: query
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 163, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(152): App\Controllers\BaseAdmin->getModuleRole()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(15): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Setting->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 08:40:15 --> Undefined variable: module_role
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 48, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 08:42:39 --> Undefined variable: db
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 50, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 09:21:40 --> Cannot redeclare App\Models\Builtin\SettingModel::saveData()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-29 09:22:05 --> Undefined variable: db
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\Builtin\SettingModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 37, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(37): App\Models\Builtin\SettingModel->saveData(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 09:30:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::emptyTable()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(37): App\Models\Builtin\SettingModel->saveData(Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 09:32:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insertBatch()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(37): App\Models\Builtin\SettingModel->saveData(Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 10:34:39 --> Undefined variable: data
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\BaseAdminModel.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 103, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(84): App\Models\BaseAdminModel->getUserSetting()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(15): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Setting->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 10:43:32 --> Undefined variable: data
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\BaseAdminModel.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 103, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(84): App\Models\BaseAdminModel->getUserSetting()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(15): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Setting->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 10:43:57 --> Use of undefined constant THEME_PATH - assumed 'THEME_PATH' (this will throw an Error in a future version of PHP)
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\Builtin\SettingModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp-7.4.10...', 46, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(37): App\Models\Builtin\SettingModel->saveData(Array)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 10:46:41 --> Use of undefined constant BASE_PATH - assumed 'BASE_PATH' (this will throw an Error in a future version of PHP)
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp-7.4.10...', 30, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(15): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Setting->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 10:46:52 --> Use of undefined constant BASEPATH - assumed 'BASEPATH' (this will throw an Error in a future version of PHP)
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp-7.4.10...', 30, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting.php(15): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Setting->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 11:13:26 --> Undefined index: nama_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 148, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\SettingWeb.php(15): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\SettingWeb->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 11:15:40 --> Undefined index: nama_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 148, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(15): App\Controllers\BaseAdmin->__construct()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Setting_web->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 11:18:49 --> Class 'App\Controllers\Builtin\SettingWebModel' not found
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Builtin\Setting_web->__construct()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-29 11:19:49 --> Undefined variable: app_module
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(155): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 155, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 11:20:15 --> Call to undefined function App\Controllers\Builtin\load_view()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-29 11:20:29 --> include(app/helpers/html.php): failed to open stream: No such file or directory
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(app/hel...', 'D:\\xampp-7.4.10...', 8, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(8): include()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-10-29 11:21:44 --> Cannot use object of type Config\App as array
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 11:22:17 --> Undefined property: Config\App::$images_path
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 21, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 11:25:44 --> Argument 1 passed to set_value() must be of the type string, null given, called in D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php on line 35
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(35): set_value(NULL, '#f8e6ee')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 13:12:04 --> Argument 1 passed to set_value() must be of the type string, null given, called in D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php on line 43
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(43): set_value(NULL, '#f8e6ee')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 13:13:07 --> Argument 1 passed to set_value() must be of the type string, null given, called in D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php on line 58
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(58): set_value(NULL, 'btn-danger')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 13:13:39 --> Argument 1 passed to set_value() must be of the type string, null given, called in D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php on line 64
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(64): set_value(NULL, '\xC2\xA9{{YEAR}} <a h...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 13:15:49 --> Cannot use object of type Config\App as array
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 13:16:16 --> Cannot use object of type Config\App as array
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-10-29 13:16:31 --> Argument 1 passed to set_value() must be of the type string, null given, called in D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php on line 118
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(118): set_value(NULL, '&copy;{{YEAR}} ...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 13:20:45 --> Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP)
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp-7.4.10...', 31, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 13:22:07 --> Undefined property: Config\App::$images_path
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 86, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 13:22:23 --> Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP)
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 13:22:45 --> Undefined property: Config\App::$ImagesURL
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 87, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 13:22:58 --> Undefined property: Config\App::$images_path
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Views\themes\modern\builtin\settingweb-form.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 100, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(246): include('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(227): view('themes/modern/b...', Array)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(156): App\Controllers\BaseAdmin->view('builtin/setting...', Array)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 14:57:18 --> Undefined variable: module_role
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 34, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 15:00:37 --> Too few arguments to function App\Models\Builtin\SettingWebModel::saveData(), 0 passed in D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php on line 39 and exactly 1 expected
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(39): App\Models\Builtin\SettingWebModel->saveData()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 15:01:00 --> Cannot redeclare current_url() (previously declared in D:\xampp-7.4.10\htdocs\ci4\backend\system\Helpers\url_helper.php:161)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-29 15:02:31 --> Cannot redeclare set_value() (previously declared in D:\xampp-7.4.10\htdocs\ci4\backend\system\Helpers\form_helper.php:736)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-29 15:03:10 --> Undefined variable: form_errors
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\Builtin\SettingWebModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 39, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(39): App\Models\Builtin\SettingWebModel->saveData()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 15:30:17 --> Undefined variable: db
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Models\Builtin\SettingWebModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 104, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(46): App\Models\Builtin\SettingWebModel->saveData()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 15:30:36 --> Cannot redeclare breadcrumb() (previously declared in D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\functions_helper.php:10)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-29 15:31:22 --> Cannot redeclare breadcrumb() (previously declared in D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\functions_helper.php:11)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-29 15:34:41 --> Cannot redeclare get_filename() (previously declared in D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\builtin\util_helper.php:250)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-29 15:58:29 --> Call to undefined function App\Models\Builtin\upload_file()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(46): App\Models\Builtin\SettingWebModel->saveData()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 15:59:06 --> Call to undefined function upload_file()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(46): App\Models\Builtin\SettingWebModel->saveData()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 15:59:35 --> Call to undefined function upload_file()
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Setting_web.php(46): App\Models\Builtin\SettingWebModel->saveData()
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Builtin\Setting_web->index()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Builtin\Setting_web))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-29 15:59:56 --> Cannot redeclare format_tanggal() (previously declared in D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\util_helper.php:29)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-29 16:14:02 --> Undefined property: App\Controllers\Login::$router
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 242, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(62): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 16:14:13 --> Undefined property: App\Controllers\Login::$router
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 242, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(62): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 16:15:02 --> Trying to get property 'default_controller' of non-object
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(243): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp-7.4.10...', 243, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(63): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 16:15:28 --> Undefined property: CodeIgniter\Router\Router::$default_controller
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\xampp-7.4.10...', 244, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(64): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 18:40:49 --> Invalid file: themes/modern/builtin/login-page.php
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/b...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(34): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 18:41:11 --> Invalid file: themes/modern/builtin/login-page.php
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/b...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(34): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 18:41:12 --> Invalid file: themes/modern/builtin/login-page.php
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes/modern/b...')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(1119): CodeIgniter\View\View->render('themes/modern/b...', Array, true)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(34): view('themes/modern/b...', Array)
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 18:42:26 --> Trying to get property 'default_controller' of non-object
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp-7.4.10...', 244, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(63): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 18:47:11 --> Trying to get property 'default_controller' of non-object
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(244): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp-7.4.10...', 244, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(63): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 18:48:28 --> Trying to get property 'default_controller' of non-object
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp-7.4.10...', 245, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(63): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 18:51:11 --> Trying to get property 'default_controller' of non-object
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp-7.4.10...', 246, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(63): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 18:51:54 --> Trying to get property 'default_controller' of non-object
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp-7.4.10...', 246, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(63): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 18:58:30 --> Trying to get property 'default_controller' of non-object
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\xampp-7.4.10...', 246, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(63): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 18:59:39 --> Undefined variable: config
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\xampp-7.4.10...', 246, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(63): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 18:59:56 -->  route cannot be found while reverse-routing.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(246): redirect('http://localhos...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(63): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 19:01:03 -->  route cannot be found while reverse-routing.
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(246): redirect('http://localhos...')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(63): App\Controllers\BaseAdmin->redirectOnLoggedIn()
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(12): App\Controllers\BaseAdmin->__construct()
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(890): App\Controllers\Login->__construct()
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#7 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-29 19:02:30 --> Undefined offset: 1
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(259): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp-7.4.10...', 259, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(23): App\Controllers\BaseAdmin->mustNotLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 19:04:08 --> Undefined offset: 1
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\BaseAdmin.php(259): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\xampp-7.4.10...', 259, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Login.php(23): App\Controllers\BaseAdmin->mustNotLoggedIn()
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(918): App\Controllers\Login->index()
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-29 20:17:48 --> Cannot redeclare format_tanggal() (previously declared in D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\builtin\util_helper.php:29)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-29 20:23:29 --> Cannot redeclare format_tanggal() (previously declared in D:\xampp-7.4.10\htdocs\ci4\backend\app\Helpers\builtin\util_helper.php:29)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-29 18:04:23 --> Undefined index: action
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 181, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('builtin/module')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('builtin/module')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-29 18:42:58 --> Undefined index: action
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\app\Controllers\Builtin\Module.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\xampp-7.4.10...', 176, Array)
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(583): include_once('D:\\xampp-7.4.10...')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('builtin/module')
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('builtin/module')
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}

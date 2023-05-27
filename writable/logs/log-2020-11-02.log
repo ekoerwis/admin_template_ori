@@ -1,0 +1,21 @@
+CRITICAL - 2020-11-02 15:47:56 --> syntax error, unexpected '<', expecting end of file
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('builtin/menu')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('builtin/menu')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-02 16:06:22 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('builtin/menu')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('builtin/menu')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-02 16:07:03 --> syntax error, unexpected '<', expecting end of file
+#0 D:\xampp-7.4.10\htdocs\ci4\backend\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('builtin/menu')
+#1 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('builtin/menu')
+#2 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp-7.4.10\htdocs\ci4\backend\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp-7.4.10\htdocs\ci4\backend\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
